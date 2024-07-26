@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <section id="Home">
+            <nav>
+                <div class="logo">
+                    <p>Travel</p>
+                </div>
+                <div class="Menu">
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Explore">Explore</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <div class="text">
+                <h1>Welcome to Travel</h1>
+                <h2>Start your adventure <br>explore the extraordinary.</h2>
+                <a class="btn btn-info btn-primary" href="#Home" role="button">
+                    Start your Journey <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="container-md">
+                <div class="image-wrapper">
+                    <img src="tokyo.webp" id="city">
+                    <div class="text-overlay">Tokyo</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="newyork.webp" id="city">
+                    <div class="text-overlay">New York</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="france.webp" id="city">
+                    <div class="text-overlay">France</div>
+                </div>
+                <div class="image-wrapper">
+                    <img src="england.webp" id="city">
+                    <div class="text-overlay">England</div>
+                </div>
+            </div>
+        </section>
+        <section id="About">
+            <div class="text1">
+                <div class="text2">
+                    <h1>
+                    Learn More <br>
+                    About Travel
+                </h1>
+                <br>
+                <p>
+                 From the vibrant nightlife of New York City to the<br> bustling streets of Tokyo, our curated destinations <br>offer something for every traveler. Whether you're seeking <br>adventure, relaxation, or cultural immersion, our diverse range<br> of destinations will inspire your wanderlust and <br>satisfy your curiosity.
+                </p>
+                <br>
+                <a class="btn btn-info btn-primary" href="#Home" role="button">
+                    Explore travel <i class="fas fa-arrow-right"></i>
+                </a>
+                </div>
+            </div>
+            <div class="photo1">
+                <div class="photo2">
+                    <img src="boat.jpg" class="photo3" id="ii" >
+                </div>
+            </div>
+            <div id="overlay" class="overlay" >
+                <img id="enlargedImage" src="boat.jpg" alt="Image">
+            </div>
+        </section>
+        <section id="Explore">
+        <div class="in"> 
+         <div class="travel">
+        <a href="https://www.makemytrip.com/"> <h2>
+        Book Your flight now
+        </h2></a>
+        <h3>
+            "   Discover the world <br>one  journey at a time"
+        </h3>
+        <p>
+            Exploring foreign lands opens up a<br> world of adventure, culture, and unforgettable <br>experiences.  Embrace the unknown and embark <br>on a journey that will enrich your life <br>in ways you never imagined.
+        </p>
+         <input type="text" id="t1" placeholder="Enter your Budget">
+         <button class="t3">Click me</button>
+        </div>
+       </div>
+        <div class="eg">
+         <div class="eg1">
+            <img src="mount.webp" class="i3" id="z1" >
+            <img src="eiffel.webp" class="i3" id="z2">
+            <img src="tower.webp" class="i3" id="z3">
+            <img src="statue.webp" class="i3" id="z4">
+            
+         </div>
+         <div class="tagline">
+            <h2>Your Adventure Awaits</h2>
+            <p>Whether it's climbing the majestic peaks, marveling at architectural wonders, or delving into rich histories, every journey you take becomes a story worth telling. Let’s make memories that last a lifetime.
+               <br><br> You can see updated list of destinations based on your budget here.
+            </p>
+        </div>
+        </div>
+        </section>
+        <section id="contact">
+            <div class="cc1">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="cc2">
+                <h1>Your Journey <br> Starts Here</h1>
+                <p>Get up to date with latest travel information from us.</p>
+                <div class="social_media">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer></footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
