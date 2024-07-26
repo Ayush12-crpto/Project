@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Home {
+    height: 580px;
+    width: 100%;
+    margin: 2px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('OIP2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(00, 66, 94, 0.5), transparent);
+}
+
+.text {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    padding: 10px;
+    text-align: right;
+}
+
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    position: relative;
+}
+
+.Menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #043E52;
+    transition: 0.4s linear;
+}
+
+.Menu a:hover:before {
+    width: 90%;
+}
+
+.container-md {
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+#city {
+    height: 110px;
+    width: 150px;
+    border: 3px solid black;
+    box-shadow: 0 2px 6px black;
+}
+
+#city:hover {
+    box-shadow: 0 8px 12px black;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#About {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(43, 112, 138,0.8),rgba(43, 112, 138,0.4));
+    display: flex;
+    border: 2px solid white;
+}
+
+.text1 {
+    width: 530px;
+    height: 100%;
+}
+
+.text2 {
+    width: 400px;
+    margin: 50px;
+    padding: 10px;
+}
+
+.text2 h1 {
+    font-size: 1.5rem;
+}
+
+.text2 p {
+    font-size: 0.8rem;
+}
+
+.photo1 {
+    width: 531px;
+    height: 100%;
+    position: absolute;
+}
+
+.photo2 {
+    padding: 5px;
+    position: relative;
+    top: 65px;
+    left: 500px;
+}
+
+.photo3 {
+    height: 250px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#Explore {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(43, 112, 138,0.8),rgba(43, 112, 138,0.4));
+    border: 2px solid white;
+}
+
+.in {
+    width: 100%;
+    height: 400px;
+    background: url('boeing.webp');
+    background-size: cover;
+    border: 2px solid white;
+    position: relative;
+} 
+
+
+
+.eg {
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.travel {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    padding: 10px;
+}
+
+#t1 {
+    font-size: 0.8em;
+    width: 120px;
+    height: 20px;
+}
+
+.tagline{
+    position:absolute;
+    top:30px;
+    left:20px;
+}
+.eg1 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    margin: 40px;
+    padding: 5px;
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.i3 {
+    height: 150px;
+    width: 22%;
+}
+
+.t3 {
+    color: blue;
+    height: 18px;
+    width: 50px;
+    font-size: 12px;
+}
+
+#contact {
+    height: 400px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    position: relative;
+    border-top: 2px solid #043E52;
+}
+
+.cc1 {
+    width: 50%;
+    padding: 40px;
+}
+
+.cc2 {
+    width: 50%;
+    padding: 40px;
+}
+
+.cc2 h1 {
+    font-size: 2rem;
+    color: #043E52;
+}
+
+.cc2 p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.social_media {
+    margin-top: 20px;
+}
+
+.social_media ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social_media ul li {
+    margin-right: 10px;
+}
+
+.social_media ul li a {
+    text-decoration: none;
+    color: #043E52;
+    font-size: 1.5rem;
+}
+
+.social_media ul li a:hover {
+    color: #06698a;
+}
